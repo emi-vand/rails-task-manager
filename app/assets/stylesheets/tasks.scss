@@ -1,14 +1,63 @@
 // Place all the styles related to the Tasks controller here.
 // They will automatically be included in application.css.
-// You can use Sass (SCSS) here: https://sass-lang.com/
-h1 {
-  font-family: sans-serif;
-}
+// You can use Sass (SCSS) here: http://sass-lang.com/
 ul {
-  list-style-type: none;
+  padding: 10px;
   font-family: sans-serif;
 }
-.far {
-  float: left;
-  width: 20px;
+div .border-top {
+  margin-top: 10px;
+  font-family: sans-serif;
+}
+
+div span {
+  margin-left: 5px;
+  font-family: sans-serif;
+}
+
+h1 {
+  margin: 10px 0;
+  font-family: sans-serif;
+}
+
+.header {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  font-family: sans-serif;
+}
+
+.header h1 {
+  flex: 0 0 auto;
+  font-family: sans-serif;
+}
+
+.header div {
+  flex: 0 0 auto;
+  font-family: sans-serif;
+}
+
+div.alert span a {
+  text-decoration: none;
+  color: #1B1E21;
+  font-family: sans-serif;
+}
+
+.input {
+  margin: 20px 0;
+  font-family: sans-serif;
+}
+
+.back-link {
+  margin: 20px 0;
+  font-family: sans-serif;
+}
+
+.task-description {
+  padding: 10px 0;
+  font-family: sans-serif;
+}
+div {
+  font-family: sans-serif;
 }
